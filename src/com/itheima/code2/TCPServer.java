@@ -24,6 +24,7 @@ public class TCPServer {
         os.write("上传成功".getBytes());
         fos.close();
         s.close();
+        System.out.println("kkkkkk");
 
     }
 }
